@@ -1,0 +1,64 @@
+name: BeauT_Stylist
+description: A new Flutter application.
+
+version: 1.0.0+6
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  cupertino_icons: ^0.1.2
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  intl:
+  flutter_bloc:
+  rxdart:
+  shared_preferences:
+  dio:
+  carousel_slider:
+  firebase_messaging:
+  flutter_spinkit:
+  notification_permissions:
+  google_maps_flutter:
+  geolocator:
+  location_permissions:
+  location:
+  pin_code_fields:
+  pin_code_text_field:
+  flutter_staggered_animations: 1.0.0
+  #flutter_calendar_carousel:
+  flutter_svg:
+  fluttertoast:
+  #tinycolor: ^1.0.3
+  table_calendar:
+  image_picker:
+  flutter_image_compress:
+  email_launcher:
+  url_launcher:
+
+  # path_provider:
+  image_cropper:
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icons/512.png"
+  image_path_ios: "assets/icons/512.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/langs/ar.json
+    - assets/langs/en.json
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
